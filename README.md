@@ -76,17 +76,17 @@ module.exports = UserModel;
 # Screenshots
 ## Signup page
 <img width="1680" alt="Screenshot 2024-10-16 at 12 35 49 AM" src="https://github.com/user-attachments/assets/51e129b2-1273-495d-a1f6-5603da707748">
-## login page
+## Login page
 <img width="1680" alt="Screenshot 2024-10-16 at 12 35 58 AM" src="https://github.com/user-attachments/assets/55235853-cb55-4cf2-bc1d-892deb880576">
-## home page
+## Home page
 <img width="1680" alt="Screenshot 2024-10-16 at 12 36 06 AM" src="https://github.com/user-attachments/assets/9abfdaed-a548-425b-8906-d44d8ce9b751">
-## list of properties
+## List of properties
 <img width="1680" alt="Screenshot 2024-10-16 at 12 36 14 AM" src="https://github.com/user-attachments/assets/d5dff49b-47e2-4841-8a28-edf902892373">
 ## Details of properties
 <img width="1680" alt="Screenshot 2024-10-16 at 1 33 24 AM" src="https://github.com/user-attachments/assets/84bc2e71-da4d-4248-b0b6-a1adcb5f3604">
-## searchbar
+## Searchbar
 <img width="1680" alt="Screenshot 2024-10-16 at 12 36 36 AM" src="https://github.com/user-attachments/assets/f8690f13-c2b7-4c76-8b72-364931f4ed46">
-## responsiveness
+## Responsiveness
 <img width="1680" alt="Screenshot 2024-10-16 at 1 19 50 AM" src="https://github.com/user-attachments/assets/8ad0e9ad-dc80-4605-9364-9e13e719c1f5">
 
 
