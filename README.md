@@ -77,7 +77,7 @@ module.exports = UserModel;
 # Screenshots
 # Signup page
 <img width="1680" alt="Screenshot 2024-10-16 at 12 35 49 AM" src="https://github.com/user-attachments/assets/51e129b2-1273-495d-a1f6-5603da707748">
-# Login page
+## Login Page
 <img width="1680" alt="Screenshot 2024-10-16 at 12 35 58 AM" src="https://github.com/user-attachments/assets/55235853-cb55-4cf2-bc1d-892deb880576">
 # Home page
 <img width="1680" alt="Screenshot 2024-10-16 at 12 36 06 AM" src="https://github.com/user-attachments/assets/9abfdaed-a548-425b-8906-d44d8ce9b751">
