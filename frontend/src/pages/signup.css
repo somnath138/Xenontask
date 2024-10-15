@@ -1,0 +1,23 @@
+.wrappingsignup{
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.signupfont{
+	font-size: 3rem;
+	letter-spacing: 2px;
+    font-weight: 600;
+}
+.signupfont::after {
+	content: '';
+	display: block;
+	width: 9.5rem; 
+	height: 3px; 
+	background-color: rgb(128, 0, 128);
+	border-radius: 1rem;
+	margin-top: 4px;
+  }
+  .inputfield{
+	width: 30rem;
+  }

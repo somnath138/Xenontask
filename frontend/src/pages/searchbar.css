@@ -1,0 +1,12 @@
+.searchbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: -2rem;
+}
+.searchbutton{
+	top:1.1rem
+}
+.inputfield{
+	width: 35rem;
+}

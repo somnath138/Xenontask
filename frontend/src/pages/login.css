@@ -1,0 +1,21 @@
+.loginwrapper{
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.loginfont{
+	font-size: 3rem;
+	letter-spacing: 2px;
+    font-weight: 600;
+}
+.loginfont::after {
+	content: '';
+	display: block;
+	width: 8rem; 
+	height: 3px; 
+	background-color: rgb(128, 0, 128);
+	border-radius: 1rem;
+	margin-top: 4px;
+  }
