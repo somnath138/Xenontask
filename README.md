@@ -75,7 +75,7 @@ module.exports = UserModel;
 [Click Here](https://xenontask.vercel.app/login)
 
 # Screenshots
-# Signup page
+## Login Page
 <img width="1680" alt="Screenshot 2024-10-16 at 12 35 49 AM" src="https://github.com/user-attachments/assets/51e129b2-1273-495d-a1f6-5603da707748">
 ## Login Page
 <img width="1680" alt="Screenshot 2024-10-16 at 12 35 58 AM" src="https://github.com/user-attachments/assets/55235853-cb55-4cf2-bc1d-892deb880576">
