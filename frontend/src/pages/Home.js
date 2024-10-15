@@ -10,7 +10,7 @@ function Home() {
   console.log("im logged is", loginstatus);
   const fetchproducts = async () => {
     try {
-      const url = "http://localhost:8080/products";
+      const url = "https://xenontask.onrender.com/products";
       const headers = {
         headers: {
           Authorization: localStorage.getItem("token"),

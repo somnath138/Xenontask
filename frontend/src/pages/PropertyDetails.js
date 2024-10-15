@@ -6,7 +6,7 @@ function PropertyDetails() {
   const [data, setdata] = useState(null);
   const fetchproperty = async () => {
     try {
-      const url = `http://localhost:8080/api/v1/getProperty/${params.id}`;
+      const url = `https://xenontask.onrender.com/api/v1/getProperty/${params.id}`;
       const headers = {
         headers: {
           Authorization: localStorage.getItem("token"),

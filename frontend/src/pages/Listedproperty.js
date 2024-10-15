@@ -8,7 +8,7 @@ function Listedproperty() {
   const [search, setSearch] = useState("");
   const fetchproducts = async () => {
     try {
-      const url = `http://localhost:8080/api/v1/property?search=${search}`;
+      const url = `https://xenontask.onrender.com/api/v1/property?search=${search}`;
       const headers = {
         headers: {
           Authorization: localStorage.getItem("token"),

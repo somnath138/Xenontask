@@ -20,6 +20,8 @@ app.use("/auth", AuthRouter);
 app.use("/products", ProductRouter);//check maintain  cookies
 app.use("/api/v1",PropertyRouter);
 
+
+
 app.listen(PORT, () => {
   console.log(`server is running on ${PORT}`);
 });
