@@ -1,0 +1,112 @@
+#!/bin/bash
+
+# Set the script's directory for sourcing other files
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+LIB_DIR="$SCRIPT_DIR/../lib"
+
+# Import all functionalities
+source "$LIB_DIR/services.sh"
+source "$LIB_DIR/system_health.sh"
+source "$LIB_DIR/disk.sh"
+source "$LIB_DIR/process.sh"
+source "$LIB_DIR/logs.sh"
+source "$LIB_DIR/backup.sh"
+
+VERSION="v0.1.0"
+
+# Help function
+show_help() {
+    cat << EOF
+sysopctl - System Operations Control ($VERSION)
+
+Usage: sysopctl [command] [options]
+
+Available commands:
+
+  service list                      List running services
+  service start <name>              Start a service
+  service stop <name>               Stop a service
+
+  system load                       View system load averages
+
+  disk usage                        Check disk usage
+
+  process monitor                   Monitor system processes
+
+  logs analyze                      Analyze system logs
+
+  backup <path>                     Backup system files
+
+  --help                            Show this help message
+  --version                         Show version information
+
+Examples:
+
+  sysopctl service list
+  sysopctl service start apache2
+  sysopctl system load
+  sysopctl disk usage
+  sysopctl process monitor
+  sysopctl logs analyze
+  sysopctl backup /home/user/documents
+
+EOF
+}
+
+# Version function
+show_version() {
+    echo "sysopctl version $VERSION"
+}
+
+# Main command handler
+case $1 in
+    --help|-h)
+        show_help
+        ;;
+    --version|-v)
+        show_version
+        ;;
+    service)
+        service "$2" "$3"
+        ;;
+    system)
+        if [[ $2 == "load" ]]; then
+            system_load
+        else
+            echo "Invalid system command."
+            show_help
+        fi
+        ;;
+    disk)
+        if [[ $2 == "usage" ]]; then
+            disk_usage
+        else
+            echo "Invalid disk command."
+            show_help
+        fi
+        ;;
+    process)
+        if [[ $2 == "monitor" ]]; then
+            process_monitor
+        else
+            echo "Invalid process command."
+            show_help
+        fi
+        ;;
+    logs)
+        if [[ $2 == "analyze" ]]; then
+            logs_analyze
+        else
+            echo "Invalid logs command."
+            show_help
+        fi
+        ;;
+    backup)
+        backup_system "$2"
+        ;;
+    *)
+        echo "Invalid command."
+        show_help
+        ;;
+esac
+

@@ -1,0 +1,72 @@
+.TH SYSOPCTL 8 "October 2024" "v0.1.0" "System Operations Control"
+.SH NAME
+sysopctl \- System operations management command
+.SH SYNOPSIS
+.B sysopctl
+[\fIcommand\fR] [\fIoptions\fR]
+.SH DESCRIPTION
+sysopctl is a custom command designed to enhance system administration capabilities by managing system resources such as services, processes, and system health.
+
+.SH COMMANDS
+.TP
+\fBsysopctl service list\fR
+List all active system services.
+.TP
+\fBsysopctl service start <service-name>\fR
+Start a specific service.
+.TP
+\fBsysopctl service stop <service-name>\fR
+Stop a specific service.
+.TP
+\fBsysopctl system load\fR
+Display the current system load averages.
+.TP
+\fBsysopctl disk usage\fR
+Show disk usage statistics by partition.
+.TP
+\fBsysopctl process monitor\fR
+Monitor real-time process activity.
+.TP
+\fBsysopctl logs analyze\fR
+Analyze recent critical system log entries.
+.TP
+\fBsysopctl backup <path>\fR
+Backup files from the specified path.
+
+.SH OPTIONS
+.TP
+\fB--help\fR, \fB-h\fR
+Show help message and usage instructions.
+.TP
+\fB--version\fR, \fB-v\fR
+Show the version of sysopctl.
+
+.SH EXAMPLES
+.TP
+List all running services:
+.B
+sysopctl service list
+.TP
+Start the Apache service:
+.B
+sysopctl service start apache2
+.TP
+Check system load averages:
+.B
+sysopctl system load
+.TP
+Monitor system processes:
+.B
+sysopctl process monitor
+.TP
+Backup user documents:
+.B
+sysopctl backup /home/user/documents
+
+.SH AUTHOR
+Written by Mohit Agarwal.
+
+.SH COPYRIGHT
+Copyright (C) 2024 Mohit Agarwal. All rights reserved.
+
+

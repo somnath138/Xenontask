@@ -43,14 +43,13 @@ function Navigationbar() {
           <Link className="text-white cursor-pointer" to="/">
             Home
           </Link>
-          <Link className="text-white cursor-pointer" to="/property">
-            Properties
-          </Link>
 
           {isLoggedIn ? (
             <>
               <h1 className=" text-white">{loggedInUser}</h1>
-
+              <Link className="text-white cursor-pointer" to="/property">
+                Properties
+              </Link>
               <Link
                 className="text-white cursor-pointer"
                 onClick={handleLogout}
