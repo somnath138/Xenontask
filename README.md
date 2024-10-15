@@ -15,6 +15,7 @@ This XenonStack property based project is a  basically property listing platform
 - # Backend:-Node js,Express Js
 - # Database:-MongoDb
 
+# bash command
 ```bash
 # Initialize a package.json file for the backend
 npm init -y
