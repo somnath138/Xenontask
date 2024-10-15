@@ -11,9 +11,9 @@ This XenonStack property based project is a  basically property listing platform
   
 
 # Tech Stack
-Frontend:-React.js,TailwindCSS,CSS3
-Backend:-Node js,Express Js
-Database:-MongoDb
+- # Frontend:-React.js,TailwindCSS,CSS3
+- # Backend:-Node js,Express Js
+- # Database:-MongoDb
 
 ```bash
 # Initialize a package.json file for the backend
