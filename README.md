@@ -1,4 +1,4 @@
-#Task 1 
+# Task 1 
 # XenonStack property
 This XenonStack property based project is a  basically property listing platform that allows users to browse, search, and list properties. It includes secure user authentication for managing accounts and listings, enabling users to add, edit, and view properties seamlessly.
 
@@ -93,7 +93,7 @@ module.exports = UserModel;
 
 
 
-#task 2:-
+# task 2:-
 
 # sysopctl - System Operations Control Tool
 
